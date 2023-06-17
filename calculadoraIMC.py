@@ -15,5 +15,5 @@ elif imc > 24.9 and imc <= 29.9:
 elif imc > 29.9 and imc <= 39.9:
     print('O seu imc e {:.2f}, voce esta classificado como Obesidade II'.format(imc))
 
-elif imc >= 40:
+else:
     print('O seu imc e {:.2f}, voce esta classificado como Obesidade Grave III'.format(imc))
